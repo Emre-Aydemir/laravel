@@ -1,0 +1,89 @@
+.new-post {
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.posts header{
+    margin-bottom: 20px;
+}
+
+.posts .post {
+    padding-left: 10px;
+    border-left: 3px solid #a21b24;
+    margin-bottom: 30px;
+}
+
+.posts .post .info {
+    color: #aaa;
+    font-style: italic;
+}
+
+.error, success {
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #f9b5af;
+    color: red;
+}
+
+.error {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+
+/*
+    this->CSS will show the Edit-modal,
+    otherwise you don't see it!
+ */
+.fade.in {
+    opacity: 1;
+}
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+
+    padding: 120px;
+
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    background: #19baf9;
+    color: #333;
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 8px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border-color: #1698f9;
+
+
+
+}
+
+.collapse.show {
+    visibility: visible;
+}
+
